@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap');
+
+body {
+    background-color: #000;
+    /* width: 100%; */
+    /* cursor: pointer; */
+    color: #FFFBFE;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.5
+}
+
+.page-divider img {
+    min-width: 100%;
+
+}
+
+a {
+    text-decoration: none;
+    text-transform: none;
+    color: white;
+}
+
+.download-btn {
+    color: #212529
+}
+
+.download-btn:hover {
+    color: #FFFBFE
+}
+
+.navbar-dark-color {
+    color: #c01194
+}
+
+.bi-github {
+    font-size: 1.5rem;
+}
+
+a .bi-github:hover {
+    font-size: 1.5rem;
+    color: rgb(228, 199, 34);
+}
+
+.opacity-25 {
+    opacity: 0.6
+}
+
+hr {
+    width: 8em;
+    background-color: rgb(228, 199, 34);
+
+}
+
+.card-img-top {
+    opacity: 0.6;
+    width: 100%;
+
+    object-fit: cover;
+}
+
+.card-img-top:hover {
+    opacity: 1
+}
+
+/* showcase */
+h1 {
+    font-size: clamp(1rem, 3vw + 1rem, 4rem);
+    position: relative;
+    font-family: "Source Code Pro", monospace;
+    position: relative;
+    width: max-content;
+}
+
+h1::before,
+h1::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+}
+
+h1::before {
+    background: #212529;
+    animation: typewriter 5s steps(24) 1s forwards;
+}
+
+h1::after {
+    width: 0.125em;
+    background: #000;
+    animation: typewriter 5s steps(24) 1s forwards,
+        blink 750ms steps(24) infinite;
+}
+
+.subtitle {
+    color: #FFFBFE;
+    /* font-size: 2rem; */
+    font-weight: 400;
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fadeInUp 2s ease calc(5s + 1s) forwards;
+}
+
+/*keyframes */
+@keyframes typewriter {
+    to {
+        left: 100%;
+    }
+}
+
+
+@keyframes blink {
+    to {
+        background: transparent;
+    }
+}
+
+
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+.arrow:hover {
+    color: rgb(228, 199, 34);
+
+}

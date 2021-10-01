@@ -1,0 +1,7 @@
+.vscode/*
+node_modules/
+logs
+*.log
+.DS_Store
+# Local History for Visual Studio Code
+.history/

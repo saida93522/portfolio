@@ -1,0 +1,17 @@
+{
+  "name": "ptflio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "aos": "^3.0.0-beta.6",
+    "scrollmagic": "^2.0.8"
+  }
+}
