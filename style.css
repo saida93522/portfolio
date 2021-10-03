@@ -2,8 +2,7 @@
 
 body {
     background-color: #000;
-    /* width: 100%; */
-    /* cursor: pointer; */
+    width: 100vw;
     color: #FFFBFE;
     font-family: 'Quicksand', sans-serif;
     line-height: 1.5
