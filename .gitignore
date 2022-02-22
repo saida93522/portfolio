@@ -5,3 +5,5 @@ logs
 .DS_Store
 # Local History for Visual Studio Code
 .history/
+.Resume
+maz.html
